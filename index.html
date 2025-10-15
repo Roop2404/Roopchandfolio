@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanaparthi Roop Chand | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    body {background: #0e1116; color: #f5f6fa; line-height: 1.6;}
+    header {background: linear-gradient(135deg, #00c6ff, #0072ff); color: white; text-align: center; padding: 60px 20px;}
+    header h1 {font-size: 2.5rem; margin-bottom: 10px;}
+    header p {font-size: 1.1rem;}
+
+    nav {background: #1a1f25; display: flex; justify-content: center; gap: 20px; padding: 15px 0; position: sticky; top: 0; z-index: 10;}
+    nav a {color: #fff; text-decoration: none; font-weight: 500; transition: 0.3s;}
+    nav a:hover {color: #00c6ff;}
+
+    section {max-width: 1100px; margin: 60px auto; padding: 0 20px;}
+    h2 {font-size: 1.8rem; color: #00c6ff; margin-bottom: 15px; border-left: 5px solid #0072ff; padding-left: 10px;}
+
+    .about, .education, .projects, .skills, .achievements, .contact {margin-bottom: 60px;}
+    .about p {max-width: 800px;}
+
+    .skills-list {display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;}
+    .skill {background: rgba(0, 198, 255, 0.1); color: #00c6ff; border: 1px solid #0072ff; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem;}
+
+    .project-card {background: #1a1f25; padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.3s;}
+    .project-card:hover {transform: translateY(-5px);}
+    .project-card h3 {color: #00c6ff; margin-bottom: 8px;}
+    .project-card a {color: #00c6ff; text-decoration: none;}
+    .project-card a:hover {text-decoration: underline;}
+
+    .achievements ul {list-style-type: none;}
+    .achievements li {margin-bottom: 10px;}
+
+    footer {text-align: center; padding: 20px; background: #1a1f25; color: #aaa;}
+    .contact a {color: #00c6ff; text-decoration: none;}
+    .contact a:hover {text-decoration: underline;}
+
+    @media (max-width: 768px) {
+      header h1 {font-size: 2rem;}
+      nav {flex-wrap: wrap;}
+      section {margin: 40px 10px;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kanaparthi Roop Chand</h1>
+    <p>Computer Science Student | Machine Learning & Web Development Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate Computer Science undergraduate at Kalasalingam Academy of Research and Education with a strong background in programming, data structures, and software development. I enjoy solving real-world problems through technology, focusing on machine learning, computer vision, and full-stack projects.</p>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <p><strong>Kalasalingam Academy of Research and Education</strong> — B.Tech in Computer Science and Engineering (CGPA: 7.18/10)</p>
+    <p><strong>Sri Sarada Junior College</strong> — Pre-University (75%)</p>
+    <p><strong>Sri Chaitanya Techno School</strong> — Secondary Education (585/600)</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Sign Language Recognition Using Machine Learning</h3>
+      <p>Recognizes Indian Sign Language digit gestures using CNN, ResNet, and Ensemble models, achieving high accuracy.</p>
+      <p><a href="https://github.com/Roop2404/Audio-Speech-To-Sign-Language-Converter-master" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Vehicle Smoke Detection</h3>
+      <p>YOLO-based object detection system for identifying smoke emissions from vehicles using real-time computer vision.</p>
+      <p><a href="https://github.com/Roop2404" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>AI Resume Analyzer</h3>
+      <p>AI-powered web app built with Streamlit and Google Gemini for resume-job description matching, scoring, and analysis.</p>
+      <p><a href="https://github.com/Roop2404/Resume" target="_blank">View on GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span class="skill">Python</span>
+      <span class="skill">HTML & CSS</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Machine Learning</span>
+      <span class="skill">Deep Learning (YOLO)</span>
+      <span class="skill">Django</span>
+      <span class="skill">Streamlit</span>
+      <span class="skill">Git & GitHub</span>
+    </div>
+  </section>
+
+  <section id="achievements" class="achievements">
+    <h2>Achievements & Roles</h2>
+    <ul>
+      <li><strong>2nd Place — The ComBattle Ideathon (IEEE ComSoc KARE):</strong> Recognized for innovation and technical excellence.</li>
+      <li><strong>Resource Management Co-Lead | PACT:</strong> Organized mock interviews, training, and mentorship programs for students (Dec 2024 – Present).</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:kanaparthiroopchand123@gmail.com">kanaparthiroopchand123@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 93917 46289</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/roop-chand-kanaparthi-697859268/" target="_blank">Profile</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Roop2404" target="_blank">Roop2404</a></p>
+  </section>
+
+  <footer>
+    <p>© <script>document.write(new Date().getFullYear());</script> Kanaparthi Roop Chand | Designed for innovation and impact.</p>
+  </footer>
+</body>
+</html>
